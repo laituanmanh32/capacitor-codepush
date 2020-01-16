@@ -1,12 +1,9 @@
 {
-  "name": "@areo/capacitor-codepush",
-  "version": "1.0.0-capacitor.3",
+  "name": "capacitor-codepush",
+  "version": "1.0.3",
   "description": "CodePush Plugin for Capacitor",
-  "main": "bin/www/codePush.js",
-  "repository": "github:areo/capacitor-codepush",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "main": "bin/www/index.js",
+  "repository": "github:laituanmanh32/capacitor-codepush",
   "keywords": [
     "capacitor",
     "code",
@@ -17,7 +14,7 @@
   ],
   "author": "Microsoft Corporation",
   "license": "MIT",
-  "types": "./bin/www/codePush.d.ts",
+  "types": "./bin/www/index.d.ts",
   "devDependencies": {
     "@capacitor/core": "^1.3.0",
     "@commitlint/cli": "^8.2.0",

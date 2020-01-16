@@ -30,7 +30,8 @@ var tsCompileOptions = {
     "target": "ES2017",
     "module": "commonjs",
     "sourceMap": false,
-    "removeComments": true
+    "removeComments": true,
+    "declaration": true,
 };
 
 function spawnCommand(command, args, callback, silent, detached) {
